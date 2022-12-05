@@ -1,16 +1,10 @@
 import "./contact.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Contact() {
     return (
         <div className="contact">
-            <hr></hr>
-            <div className="title-contact">
-        
-                <h1>Get in touch.</h1>
-            </div>
-            <div className="text-contact">
-                For all inquiries you may contact me using the methods below or through my LinkedIn
-            </div>
+            <p>✉️<a href="mailto:atoui79@gmail.com" target="_blank">atoui79@gmail.com</a></p> <p>👤<a href="https://www.linkedin.com/in/samiatoui/" target="_blank">LinkedIn</a></p>
         </div>
     )
 }

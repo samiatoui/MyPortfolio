@@ -1,23 +1,8 @@
 const MenuItems = [
     {
-        title: 'About',
+        title: 'RESUME',
         url: '#',
         cName: 'about'
-    },
-    {
-        title: 'Work',
-        url: '#',
-        cName: 'work'
-    },
-    {
-        title: 'Projects',
-        url: '#',
-        cName: 'projects'
-    },
-    {
-        title: 'Contact',
-        url: '#',
-        cName: 'contact'
     }
 ]
 

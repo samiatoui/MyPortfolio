@@ -5,14 +5,8 @@ export default function About() {
 
         <div className="about">
             <div className="text">
-                <h1>Hi, I'm Sami.</h1>
-                <p>A Software Developer.</p>
-
-                <button className="contactme">
-                    Get in touch.
-                </button>
-            </div>
-            <div className="photo">
+                <h1>Sami Atoui</h1>
+                <p>Software Developer.</p>
                 <img src="https://i.imgur.com/h4QL944.jpg" alt="Sami Atoui"></img>
             </div>
         </div>
