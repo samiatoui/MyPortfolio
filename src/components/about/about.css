@@ -1,7 +1,6 @@
 .about{
     color:white;
     display: flex;
-    padding: 50px 50px;
     justify-content: center;
     text-align: center;
     -webkit-touch-callout: none; /* iOS Safari */
@@ -11,18 +10,25 @@
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
-    margin-bottom: -75px;
+    margin-bottom: -50px;
+}
+
+.text h2{
+    font-size: 18px;
+}
+
+.text p{
+    font-size: 14px;
 }
 
 .text{
     margin-right: 50px;
-    font-size: 22px;
-   
+    max-width: 650px;
 }
 
 .text h1{
    color: #FFD97D;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: -25px;
 }
 
