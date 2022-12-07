@@ -1,0 +1,50 @@
+.repo-container {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.repo-main {
+    text-align: center;
+    color: #FFD97D;
+
+}
+
+.repo-main h4{
+    font-style: italic;
+    color: grey;
+    font-size: 14px;
+}
+.repo-item {
+    background-color: #FFD97D;
+    width: 200px;
+    height: auto;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    color: black;
+    font-size: 14px;
+
+}
+
+.repo-button a {
+    text-decoration: none;
+    color: #FFD97D;
+    background-color: #0D1317;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.repo-button a:visited {
+    text-decoration: none;
+    color: #FFD97D;
+}
+
+.repo-button a:hover{
+    background-color: #0D1317;
+    color: white;
+}

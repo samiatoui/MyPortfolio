@@ -42,6 +42,9 @@ export default function Skills() {
                     Firebase
                 </div>
                 <div className="skill">
+                    JEST
+                </div>
+                <div className="skill">
                     GitHub
                 </div>
                 <div className="skill">
@@ -52,6 +55,9 @@ export default function Skills() {
                 </div>
                 <div className="skill">
                     IntelliJ
+                </div>
+                <div className="skill">
+                    MS Teams
                 </div>
             </div>
 
