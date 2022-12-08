@@ -4,7 +4,7 @@ import "./App.css";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import RepoList from "./components/Repos/RepoList";
-import Repo from "./components/Repos/Repo";
+import Exp from "./components/workexp/Workexp";
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
         <About/>
         <Contact/>
         <Skills />
+        <Exp/>
         <RepoList/>
         </div>    
     </div>
