@@ -1,6 +1,6 @@
 const MenuItems = [
     {
-        title: 'RESUME',
+        title: 'MY RESUME',
         url: '#',
         cName: 'about'
     }
