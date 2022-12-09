@@ -10,11 +10,7 @@ class Topbar extends Component {
                     <h1>SAMI ATOUI.</h1>
                 </div>
                 <ul>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            <li><a className="item.cName" href={item.url}>{item.title}</a></li>
-                        )
-                    })}
+                    <MenuItems/>
                 </ul>
             </nav>
         )
