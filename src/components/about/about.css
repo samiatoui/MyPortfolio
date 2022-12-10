@@ -1,41 +1,38 @@
-.about{
-    color:white;
+.about {
+    color: white;
     display: flex;
     justify-content: center;
     text-align: center;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
-    margin-bottom: -50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.text h2{
+.text h2 {
     font-size: 18px;
 }
 
-.text p{
+.text p {
     font-size: 14px;
 }
 
-.text{
-    margin-right: 50px;
+.text {
     max-width: 650px;
+    padding: 0 15px;
 }
 
-.text h1{
-   color: #FFD97D;
+.text h1 {
+    color: #FFD97D;
     font-size: 50px;
-    margin-bottom: -25px;
+    margin-bottom: -15px;
 }
 
-.text img{
+.text img {
     width: 200px;
     border-radius: 50%;
     height: 200px;
     margin-top: 25px;
 }
-
