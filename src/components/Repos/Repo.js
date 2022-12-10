@@ -18,7 +18,11 @@ export default function Repo() {
             .catch(console.error)
     }, [])
 
-    console.log(repos[0]);
+    console.log(repos[1]);
+
+
+
+
 
 
     return repos.map((repo) => (
@@ -27,6 +31,10 @@ export default function Repo() {
                 <h2>{repo.name}</h2>
                 <p>{repo.description}</p>
                 <div className="repo-button"><a href={repo.html_url}> Code </a></div>
+                {
+                    repo.homepage !== "" && repo.homepage !== null ? (<div className="demo-button"><a href={repo.homepage} target="_blank"> Demo </a></div>) : <div className="repo-button"></div>
+                }
+
             </div>
         </div>
     ));
