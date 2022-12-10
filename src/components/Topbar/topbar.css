@@ -1,45 +1,39 @@
-.Navbar{
+.Navbar {
     display: flex;
-    justify-content: right;
-    padding-right: 200px;
     height: 70px;
     align-items: center;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    justify-content: space-between;
+    padding: 0px 25px;
+
+                            
 }
 
-li{
-    display: inline;
-    padding: 5px;
-    margin: 0px 10px;
-}
-
-.Navbar a{
+.Navbar a {
     text-decoration: none;
     color: #0D1317 !important;
     font-size: 18px;
     background-color: #FFD97D;
     padding: 5px 10px;
     border-radius: 5px;
-    
+
 }
 
+.nav-btn{
+    float: right;
+}
 
-.Navbar a:hover{
+.Navbar a:hover {
     color: #FFD97D !important;
     background-color: white;
-  
+
 }
 
-.title{
-    justify-content: left ;
-    align-items: center;
-    position: absolute;
-    left: 200px;
-    color:#FFD97D;
+.title {
+    color: #FFD97D;
 }

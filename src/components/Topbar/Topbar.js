@@ -9,9 +9,11 @@ class Topbar extends Component {
                 <div className="title">
                     <h1>SAMI ATOUI.</h1>
                 </div>
-                <ul>
-                    <MenuItems/>
-                </ul>
+                <div className="nav-btn">
+                    <ul>
+                        <MenuItems />
+                    </ul>
+                </div>
             </nav>
         )
     }
