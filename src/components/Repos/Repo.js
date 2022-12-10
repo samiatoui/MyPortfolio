@@ -18,13 +18,6 @@ export default function Repo() {
             .catch(console.error)
     }, [])
 
-    console.log(repos[1]);
-
-
-
-
-
-
     return repos.map((repo) => (
         <div>
             <div className="repo-item" key={repo}>
