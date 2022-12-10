@@ -3,7 +3,7 @@
     color:white;
     display: flex;
     justify-content: center;
-    -webkit-touch-callout: none; /* iOS Safari */
+     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
      -khtml-user-select: none; /* Konqueror HTML */
        -moz-user-select: none; /* Old versions of Firefox */
@@ -13,7 +13,7 @@
 }
 
 p{
-    padding-right: 20px;
+    padding: 10px;
 }
 
 .contact a{

@@ -4,8 +4,8 @@
 }
 
 .skills-title{
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding-top: 10px
 }
 
 .skills-container{
