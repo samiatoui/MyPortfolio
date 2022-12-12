@@ -9,7 +9,7 @@ export default function About() {
                 <h1>Sami Atoui</h1>
                 <div className="title-contact">    <h2>Software Developer.</h2> <Contact /></div>
                 <p>I'm a software developer with a passion for building web applications and diving into and learning new technologies.</p>
-                <img src="https://i.imgur.com/h4QL944.jpg" alt="Sami Atoui"></img>
+                <img src="https://i.imgur.com/h4QL944.jpg" className="imgsami" alt="Sami Atoui"></img>
             </div>
         </div>
     )

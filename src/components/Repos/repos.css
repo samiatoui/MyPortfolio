@@ -26,52 +26,37 @@
     width: 250px;
     height: 250px;
     overflow-wrap: break-word;
-    text-align: center;
+    text-align: left;
     margin: 10px;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 5px;
     color: black;
     font-size: 14px;
 
 }
 
+.repo-button{
+    padding: 0px 5px 0px 0px;
+}
 .repo-button a {
     text-decoration: none;
-    color: var(--font-two);
-    background-color: var(--font-one);
-    padding: 5px 10px;
     border-radius: 5px;
 }
 
 .repo-button a:visited {
     text-decoration: none;
-    color: var(--font-two);
 }
 
 .repo-button a:hover{
-    background-color: var(--font-one);
-    color: white;
-}
-
-.demo-button a {
-    text-decoration: none;
-    color: var(--font-two);
-    background-color: var(--font-one);
-    padding: 5px 10px;
-    border-radius: 5px;
+    filter: invert(100%) sepia(1%) saturate(4726%) hue-rotate(312deg) brightness(114%) contrast(100%);
 
 }
 
-.demo-button a:visited {
-    text-decoration: none;
-    color: var(--font-two);
+.repo-btncont{
+    display: flex;
 }
-
-.demo-button a:hover{
-    background-color:var(--font-one);
-    color: white;
-}
-
-.demo-button{
-    margin-top: 15px;
+.repo-button img{
+    aspect-ratio: 1/1;
+    width: 20px;
+    height: auto;
 }
