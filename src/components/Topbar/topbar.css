@@ -29,7 +29,6 @@
 }
 
 .Navbar a:hover {
-    color: var(--font-two) !important;
     background-color: white;
 
 }

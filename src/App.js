@@ -5,16 +5,17 @@ import Skills from "./components/skills/Skills";
 import RepoList from "./components/Repos/RepoList";
 import Exp from "./components/workexp/Workexp";
 
+
 function App() {
   return (
     <div className="App">
-      <Topbar/>  
+      <Topbar />
       <div className="sections">
-        <About/>
+        <About />
         <Skills />
-        <Exp/>
-        <RepoList/>
-        </div>    
+        <Exp />
+        <RepoList />
+      </div>
     </div>
   );
 }
