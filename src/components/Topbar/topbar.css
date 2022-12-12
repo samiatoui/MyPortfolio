@@ -18,7 +18,7 @@
     text-decoration: none;
     color: #0D1317 !important;
     font-size: 18px;
-    background-color: #FFD97D;
+    background-color: var(--font-two);
     padding: 5px 10px;
     border-radius: 5px;
 
@@ -29,11 +29,11 @@
 }
 
 .Navbar a:hover {
-    color: #FFD97D !important;
+    color: var(--font-two) !important;
     background-color: white;
 
 }
 
 .title {
-    color: #FFD97D;
+    color: var(--font-two);
 }

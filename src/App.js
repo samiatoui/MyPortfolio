@@ -1,5 +1,4 @@
 import Topbar from "./components/Topbar/Topbar";
-import Contact from "./components/contact/Contact";
 import "./App.css";
 import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
@@ -12,7 +11,6 @@ function App() {
       <Topbar/>  
       <div className="sections">
         <About/>
-        <Contact/>
         <Skills />
         <Exp/>
         <RepoList/>

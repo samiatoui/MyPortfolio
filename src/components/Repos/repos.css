@@ -5,11 +5,14 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    padding: 5px 25px;
+
 }
 
 .repo-main {
     text-align: center;
-    color: #FFD97D;
+    color: var(--font-two);
+    
 
 }
 
@@ -19,7 +22,7 @@
     font-size: 14px;
 }
 .repo-item {
-    background-color: #FFD97D;
+    background-color: var(--font-two);
     width: 250px;
     height: 250px;
     overflow-wrap: break-word;
@@ -34,26 +37,26 @@
 
 .repo-button a {
     text-decoration: none;
-    color: #FFD97D;
-    background-color: #0D1317;
+    color: var(--font-two);
+    background-color: var(--font-one);
     padding: 5px 10px;
     border-radius: 5px;
 }
 
 .repo-button a:visited {
     text-decoration: none;
-    color: #FFD97D;
+    color: var(--font-two);
 }
 
 .repo-button a:hover{
-    background-color: #0D1317;
+    background-color: var(--font-one);
     color: white;
 }
 
 .demo-button a {
     text-decoration: none;
-    color: #FFD97D;
-    background-color: #0D1317;
+    color: var(--font-two);
+    background-color: var(--font-one);
     padding: 5px 10px;
     border-radius: 5px;
 
@@ -61,11 +64,11 @@
 
 .demo-button a:visited {
     text-decoration: none;
-    color: #FFD97D;
+    color: var(--font-two);
 }
 
 .demo-button a:hover{
-    background-color: #0D1317;
+    background-color:var(--font-one);
     color: white;
 }
 

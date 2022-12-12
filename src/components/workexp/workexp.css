@@ -1,12 +1,23 @@
-.exp-main{
+.exp-main {
     max-width: 900px;
-    text-align: center;
     margin: 0 auto;
     margin-bottom: 50px;
-}
-
-.exp-item h2{
-    color: #FFD97D;
+    padding: 5px 25px;
 }
 
 
+
+.exp-item h2 {
+    color: var(--font-two);
+}
+
+.exp-item{
+   margin-bottom: 50px;
+}
+
+.title-job{
+    background-color: var(--font-two);
+    color: var(--font-one);
+    padding: 5px 25px;
+    font-size: 20px;
+}

@@ -2,37 +2,39 @@
     color: white;
     display: flex;
     justify-content: center;
-    text-align: center;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    margin-bottom: 50px;
+    padding: 5px 25px;
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto;
 }
 
 .text h2 {
     font-size: 18px;
+    font-family: var(--font-code);
+    color: var(--font-two);
 }
 
 .text p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.text {
-    max-width: 650px;
-    padding: 0 15px;
+
+.hi {
+    margin-bottom: -40px;
+    font-family: var(--font-code);
+    font-size: 16px;
+    color: var(--font-two);
 }
 
 .text h1 {
-    color: #FFD97D;
+    color: var(--font-yellow);
     font-size: 50px;
     margin-bottom: -15px;
 }
 
 .text img {
-    width: 200px;
-    border-radius: 50%;
-    height: 200px;
-    margin-top: 25px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
 }
