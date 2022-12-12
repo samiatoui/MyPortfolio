@@ -4,7 +4,7 @@ export default function Skills() {
     return (
         <div className="skills-main">
             <div className="skills-title">
-                <h2>Skills</h2>
+                <h1>My Toolbox</h1>
             </div>
 
             <div className="skills-container">

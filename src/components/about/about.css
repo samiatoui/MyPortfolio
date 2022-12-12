@@ -9,6 +9,42 @@
     height: auto;
 }
 
+
+
+@media only screen and (min-width: 750px) {
+    .bio {
+        display: flex;
+    }
+
+    .bio-text {
+        max-width: 50%;
+        padding-right: 25px;
+    }
+
+    .imgsami {
+        max-width: 300px;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .bio-text {
+        text-align: left;
+
+    }
+
+    .imgsami {
+        display: flex;
+        margin: 0 auto;
+        max-width: 300px;
+        border-radius: 10px;
+    }
+}
+
+
+
 .text h2 {
     font-size: 18px;
     font-family: var(--font-code);
@@ -31,10 +67,4 @@
     color: var(--font-yellow);
     font-size: 50px;
     margin-bottom: -15px;
-}
-
-.imgsami {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
 }

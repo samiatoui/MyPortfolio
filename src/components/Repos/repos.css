@@ -1,18 +1,18 @@
 .repo-container {
     max-width: 1000px;
-    min-width: 300px    ;
+    min-width: 300px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 5px 25px;
 
+
 }
 
 .repo-main {
     text-align: center;
     color: var(--font-two);
-    
 
 }
 
@@ -22,6 +22,7 @@
     font-size: 14px;
 }
 .repo-item {
+    font-family: var(--font-code);
     background-color: var(--font-two);
     width: 250px;
     height: 250px;
@@ -32,7 +33,7 @@
     border-radius: 5px;
     color: black;
     font-size: 14px;
-
+    
 }
 
 .repo-button{
