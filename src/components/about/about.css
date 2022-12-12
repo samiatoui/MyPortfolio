@@ -43,7 +43,12 @@
     }
 }
 
-
+.bio img{
+    box-shadow: 10px 10px 5px  var(--font-two);
+      -moz-box-shadow: 10px 10px 5px var(--font-two);
+      -webkit-box-shadow: 10px 10px 0px var(--font-two);
+      -khtml-box-shadow: 10px 10px 0px var(--font-two);
+}
 
 .text h2 {
     font-size: 18px;
