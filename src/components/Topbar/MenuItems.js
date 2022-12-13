@@ -1,4 +1,4 @@
-import Pdf from "./SAMI ATOUI - RESUME.pdf";
+import Pdf from "./SAMIATOUI-RESUME.pdf";
 
 export default function Menuitems() {
 
