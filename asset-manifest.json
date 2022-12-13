@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.024e8b96.css",
-    "main.js": "/MyPortfolio/static/js/main.b91d02c5.js",
+    "main.css": "/MyPortfolio/static/css/main.feed7fb7.css",
+    "main.js": "/MyPortfolio/static/js/main.cec3af75.js",
     "static/media/SAMI ATOUI - RESUME.pdf": "/MyPortfolio/static/media/SAMI ATOUI - RESUME.e6fe6b46054eb2a570df.pdf",
     "static/media/github.svg": "/MyPortfolio/static/media/github.f4f316804f6c468799b01fab35bd3220.svg",
     "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.386d46fc1dc9ea908ed8bb6235009335.svg",
@@ -9,11 +9,11 @@
     "static/media/envelope-solid.svg": "/MyPortfolio/static/media/envelope-solid.e097336f4e33827be942e2c35296dbca.svg",
     "index.html": "/MyPortfolio/index.html",
     "static/media/play-solid.svg": "/MyPortfolio/static/media/play-solid.2e99cfbe767d555f5308.svg",
-    "main.024e8b96.css.map": "/MyPortfolio/static/css/main.024e8b96.css.map",
-    "main.b91d02c5.js.map": "/MyPortfolio/static/js/main.b91d02c5.js.map"
+    "main.feed7fb7.css.map": "/MyPortfolio/static/css/main.feed7fb7.css.map",
+    "main.cec3af75.js.map": "/MyPortfolio/static/js/main.cec3af75.js.map"
   },
   "entrypoints": [
-    "static/css/main.024e8b96.css",
-    "static/js/main.b91d02c5.js"
+    "static/css/main.feed7fb7.css",
+    "static/js/main.cec3af75.js"
   ]
 }
