@@ -2,11 +2,12 @@
     color: white;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
     padding: 5px 25px;
     max-width: 900px;
     margin: 0 auto;
     height: auto;
+    margin-bottom: 150px;
+
 }
 
 
@@ -43,11 +44,11 @@
     }
 }
 
-.bio img{
-    box-shadow: 10px 10px 5px  var(--font-two);
-      -moz-box-shadow: 10px 10px 5px var(--font-two);
-      -webkit-box-shadow: 10px 10px 0px var(--font-two);
-      -khtml-box-shadow: 10px 10px 0px var(--font-two);
+.bio img {
+    box-shadow: 10px 10px 5px var(--font-two);
+    -moz-box-shadow: 10px 10px 5px var(--font-two);
+    -webkit-box-shadow: 10px 10px 0px var(--font-two);
+    -khtml-box-shadow: 10px 10px 0px var(--font-two);
 }
 
 .text h2 {

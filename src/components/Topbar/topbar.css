@@ -16,7 +16,7 @@
 
 .Navbar a {
     text-decoration: none;
-    color: #0D1317 !important;
+    color: var(--font-one);
     font-size: 18px;
     background-color: var(--font-two);
     padding: 5px 10px;
@@ -30,6 +30,11 @@
 
 .Navbar a:hover {
     background-color: white;
+
+}
+
+.Navbar a:visited{
+    color: var(--font-one);
 
 }
 

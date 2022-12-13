@@ -1,3 +1,4 @@
+import Fade from "react-reveal";
 import Topbar from "./components/Topbar/Topbar";
 import "./App.css";
 import About from "./components/about/About";
@@ -10,13 +11,24 @@ import Footer from "./components/bottom/Bottom";
 function App() {
   return (
     <div className="App">
-      <Topbar />
+      <Fade top>
+        <Topbar />
+
+      </Fade>
       <div className="sections">
-        <About />
-        <Skills />
-        <Exp />
-        <RepoList />
-        <Footer/>
+        <Fade top>
+          <About />
+        </Fade>
+        <Fade>
+          <Skills />
+        </Fade>
+        <Fade>
+          <Exp />
+        </Fade>
+        <Fade>
+          <RepoList />
+        </Fade>
+        <Footer />
       </div>
     </div>
   );

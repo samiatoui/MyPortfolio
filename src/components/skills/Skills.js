@@ -38,6 +38,9 @@ export default function Skills() {
                             Wordpress
                         </div>
                         <div className="skill">
+                            Shopify
+                        </div>
+                        <div className="skill">
                             GitHub
                         </div>
                         <div className="skill">
