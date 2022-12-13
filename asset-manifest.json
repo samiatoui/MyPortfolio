@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.024e8b96.css",
-    "main.js": "/MyPortfolio/static/js/main.2dc6a314.js",
-    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.f806bc8ed8cc00ab945e.pdf",
+    "main.js": "/MyPortfolio/static/js/main.b91d02c5.js",
+    "static/media/SAMI ATOUI - RESUME.pdf": "/MyPortfolio/static/media/SAMI ATOUI - RESUME.e6fe6b46054eb2a570df.pdf",
     "static/media/github.svg": "/MyPortfolio/static/media/github.f4f316804f6c468799b01fab35bd3220.svg",
     "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.386d46fc1dc9ea908ed8bb6235009335.svg",
     "static/media/www.svg": "/MyPortfolio/static/media/www.7eeda57043cfdc8871d445cbe59df446.svg",
@@ -10,10 +10,10 @@
     "index.html": "/MyPortfolio/index.html",
     "static/media/play-solid.svg": "/MyPortfolio/static/media/play-solid.2e99cfbe767d555f5308.svg",
     "main.024e8b96.css.map": "/MyPortfolio/static/css/main.024e8b96.css.map",
-    "main.2dc6a314.js.map": "/MyPortfolio/static/js/main.2dc6a314.js.map"
+    "main.b91d02c5.js.map": "/MyPortfolio/static/js/main.b91d02c5.js.map"
   },
   "entrypoints": [
     "static/css/main.024e8b96.css",
-    "static/js/main.2dc6a314.js"
+    "static/js/main.b91d02c5.js"
   ]
 }
