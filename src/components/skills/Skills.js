@@ -1,97 +1,37 @@
-import "./skills.css"
+import React from 'react';
+import "./skills.css";
+import SkillSection from './SkillSection'; // Import the SkillSection component
 
 export default function Skills() {
-    return (
-        <div className="skills-main">
-            <div className="skills-title">
-                <h1>My Toolbox</h1>
-            </div>
+  const programmingSkills = ['Java', 'JavaScript', 'HTML', 'CSS', 'VueJS', 'React'];
+  const toolsSkills = ['GraphQL', 'Docker', 'Wordpress', 'Shopify', 'GitHub', 'Azure Devops', 'Visual Studio', 'IntelliJ', 'MS Teams'];
+  const databaseSkills = ['ArangoDB', 'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'MS Access'];
+  const uiUxSkills = ['Adobe Photoshop', 'Canva'];
 
-            <div className="skills-container">
-                <div className="skill-div">
-                    <h3>Programming</h3>
-                    <div className="skill-divide">
-                        <div className="skill">
-                            Java
-                        </div>
-                        <div className="skill">
-                            JavaScript
-                        </div>
-                        <div className="skill">
-                            HTML
-                        </div>
-                        <div className="skill">
-                            CSS
-                        </div>
-                        <div className="skill">
-                            VueJS
-                        </div>
-                        <div className="skill">
-                            React
-                        </div>
-                    </div>
-                </div>
-                <div className="skill-div">
-                    <h3>Tools</h3>
-                    <div className="skill-divide">
-                        <div className="skill">
-                            Wordpress
-                        </div>
-                        <div className="skill">
-                            Shopify
-                        </div>
-                        <div className="skill">
-                            GitHub
-                        </div>
-                        <div className="skill">
-                            Azure Devops
-                        </div>
-                        <div className="skill">
-                            Visual Studio
-                        </div>
-                        <div className="skill">
-                            IntelliJ
-                        </div>
-                        <div className="skill">
-                            MS Teams
-                        </div>
-                    </div>
-                </div>
-                <div className="skill-div">
-                    <h3>Databases</h3>
-                    <div className="skill-divide">
-                        <div className="skill">
-                            MySQL
-                        </div>
-                        <div className="skill">
-                            PostgreSQL
-                        </div>
-                        <div className="skill">
-                            MongoDB
-                        </div>
-                        <div className="skill">
-                            Firebase
-                        </div>
-                        <div className="skill">
-                            MS Access
-                        </div>
-                    </div>
-                </div>
+  return (
+    <div className="skills-main">
+      <div className="skills-title">
+        <h1>My Toolbox</h1>
+      </div>
 
-                <div className="skill-div">
-                    <h3>UI/UX</h3>
-                    <div className="skill-divide">
-                        <div className="skill">
-                            Adobe Photoshop
-                        </div>
-                        <div className="skill">
-                            Canva
-                        </div>
-                       
-                    </div>
-                </div>
-            </div>
+      <div className="skills-container">
+        {/* Programming Skills */}
+        <SkillSection title="Programming" skills={programmingSkills} />
 
-        </div>
-    )
-} 
+        {/* Tools Skills */}
+        <SkillSection title="Tools" skills={toolsSkills} />
+
+        {/* Databases Skills */}
+        <SkillSection title="Databases" skills={databaseSkills} />
+
+        {/* UI/UX Skills */}
+        <SkillSection title="UI/UX" skills={uiUxSkills} />
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
