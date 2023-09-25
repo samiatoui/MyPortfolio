@@ -1,5 +1,4 @@
-import "../bottom/bottom.css"
-import Links from "../contact/Contact"
+import Links from "./Contact"
 
 export default function Repo() {
     return (

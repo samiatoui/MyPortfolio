@@ -1,4 +1,3 @@
-import "./repos.css";
 import Repos from "./Repo";
 
 export default function RepoList() {

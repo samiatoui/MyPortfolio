@@ -1,33 +1,22 @@
-import Fade from "react-reveal";
-import Topbar from "./components/Topbar/Topbar";
+import Topbar from "./components/Topbar";
 import "./App.css";
-import About from "./components/about/About";
-import Skills from "./components/skills/Skills";
-import RepoList from "./components/Repos/RepoList";
-import Exp from "./components/workexp/Workexp";
-import Footer from "./components/bottom/Bottom";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import RepoList from "./components/RepoList";
+import Exp from "./components/Workexp";
+import Footer from "./components/Bottom";
 
 
 function App() {
   return (
     <div className="App">
-      <Fade top>
-        <Topbar />
-
-      </Fade>
+        
       <div className="sections">
-        <Fade top>
+        <Topbar />
           <About />
-        </Fade>
-        <Fade>
           <Skills />
-        </Fade>
-        <Fade>
           <Exp />
-        </Fade>
-        <Fade>
           <RepoList />
-        </Fade>
         <Footer />
       </div>
     </div>

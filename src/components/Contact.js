@@ -1,7 +1,6 @@
-import "./contact.css";
-import github from "../about/github.svg"
-import email from "../about/envelope-solid.svg"
-import linked from "../about/linkedin.svg"
+import github from "./github.svg"
+import email from "./envelope-solid.svg"
+import linked from "./linkedin.svg"
 
 export default function Contact() {
     return (

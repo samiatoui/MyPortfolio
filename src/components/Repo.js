@@ -1,7 +1,6 @@
-import "./repos.css";
 import React, { useState, useEffect } from 'react';
-import github from "../about/github.svg";
-import www from "../about/www.svg"
+import github from "./github.svg";
+import www from "./www.svg"
 
 
 export default function Repo() {

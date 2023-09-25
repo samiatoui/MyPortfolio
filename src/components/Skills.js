@@ -1,5 +1,4 @@
 import React from 'react';
-import "./skills.css";
 import SkillSection from './SkillSection'; // Import the SkillSection component
 
 export default function Skills() {

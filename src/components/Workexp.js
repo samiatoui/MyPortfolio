@@ -1,5 +1,4 @@
 import React from 'react';
-import "./workexp.css";
 import Experience from './Experience'; // Import the Experience component
 
 export default function Workexp() {
