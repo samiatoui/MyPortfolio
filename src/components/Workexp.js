@@ -8,10 +8,12 @@ export default function Workexp() {
         company: 'Public Health Agency of Canada, Data Enablement',
         date: 'February 2022 - Current',
         responsibilities: [
-          'Thrived in an AGILE environment, effectively collaborating with cross-functional teams',
-          'Proficiently developed and maintained code in diverse languages including React JS, Vue JS, GraphQL Yoga and ArangoDB',
-          'Leveraged the Google Cloud Platform, employing technologies like Docker, Cloud SQL, and Cloud Run',
-          'Engaged in daily communication with multi-disciplinary teams of engineers and designers',
+          'Thrived in an AGILE environment, effectively collaborating with cross-functional teams.',
+          'Proficiently developed and maintained code using a variety of programming languages, including React JS, Vue JS, and incorporated specialized technologies like ArangoDB and GraphQL.',
+          'Leveraged the Google Cloud Platform, employing technologies like Docker, Cloud SQL, and Cloud Run.',
+          'Developed and maintained a security control filtering application using React for Front‑End and GraphQL + ArangoDB for Back‑End, used by managers and higher‑ups',
+          'Authored numerous wiki documents that served as essential resources for a wide range of developers.',
+          ' Actively contributed to the initiation of the framework and infrastructure, engaging in meetings with Google Representatives to gain insights into the Google Cloud Application Framework (GCAF)',
         ],
       },
     {
@@ -20,7 +22,7 @@ export default function Workexp() {
       date: 'August 2021 - Current',
       responsibilities: [
         'Wrote and maintained code for a web application used by 15,000 employees.',
-        'Worked with a variety of technologies and languages such as JavaScript, VueJS, Firebase, ASP.Net Core, and Nativescript.',
+        'Worked with a variety of technologies and languages such as JavaScript, VueJS, Firebase, ASP.Net Core, Django, Postgres, and Nativescript.',
         'Wrote and maintained essential documentation used by the development team.',
         'Communicated with multi-disciplinary teams of engineers and designers on a daily basis.',
       ],
