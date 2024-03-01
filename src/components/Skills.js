@@ -2,10 +2,7 @@ import React from 'react';
 import SkillSection from './SkillSection'; // Import the SkillSection component
 
 export default function Skills() {
-  const programmingSkills = ['Java', 'JavaScript', 'HTML', 'CSS', 'VueJS', 'React'];
-  const toolsSkills = ['GraphQL', 'Docker', 'Wordpress', 'Shopify', 'GitHub', 'Azure Devops', 'Visual Studio', 'IntelliJ', 'MS Teams'];
-  const databaseSkills = ['ArangoDB', 'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'MS Access'];
-  const uiUxSkills = ['Adobe Photoshop', 'Canva'];
+  const programmingSkills = ['Java', 'JavaScript', 'HTML', 'CSS', 'VueJS', 'React','GraphQL', 'Docker', 'Wordpress', 'Shopify', 'GitHub', 'Azure Devops', 'Visual Studio', 'IntelliJ', 'MS Teams','ArangoDB', 'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'MS Access','Adobe Photoshop', 'Canva'];
 
   return (
     <div className="skills-main">
@@ -14,17 +11,7 @@ export default function Skills() {
       </div>
 
       <div className="skills-container">
-        {/* Programming Skills */}
-        <SkillSection title="Programming" skills={programmingSkills} />
-
-        {/* Tools Skills */}
-        <SkillSection title="Tools" skills={toolsSkills} />
-
-        {/* Databases Skills */}
-        <SkillSection title="Databases" skills={databaseSkills} />
-
-        {/* UI/UX Skills */}
-        <SkillSection title="UI/UX" skills={uiUxSkills} />
+        <SkillSection  skills={programmingSkills} />
       </div>
     </div>
   );

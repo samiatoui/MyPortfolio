@@ -29,7 +29,6 @@ body {
     color: var(--font-one);
     padding: 5px 10px;
     font-family: var(--font-code);
-    max-width: 70%;
     margin: 5px;
 }
 
@@ -46,18 +45,13 @@ body {
 .skill-div {
     text-align: center;
 }
-
-.Navbar {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    color: white;
-    background-color: var(--font-two);
-    padding: 10px 20px;
+.skills-container{
+    margin: 0 auto;
+    max-width: 60%;
 }
 
-.Navbar a {
+
+.about-btn a {
     text-decoration: none;
     color: var(--font-two);
     font-size: 18px;
@@ -66,21 +60,17 @@ body {
     border-radius: 3px;
 }
 
-.nav-btn {
-    float: right;
-}
 
-.nav-title {
-    float: left;
-}
 
-.Navbar a:hover {
+
+
+.about-btn a:hover {
     background-color: var(--font-two);
     color: var(--font-one);
 
 }
 
-.Navbar a:visited {
+.about-btn a:visited {
     color: var(--font-one);
 
 }
@@ -170,14 +160,23 @@ body {
 .about {
     background-color: var(--font-two);
     color: white;
-    display: flex;
-    justify-content: center;
-    padding: 50px 20px;
-    min-height: 500px;
+    min-height: 70vh;
+    text-align: center;
+    padding-top: 50px;
+    
 }
 
+.about h1{
+    font-size: 100px;
+    padding: 0;
+}
 
-
+.about p{
+    padding: 0;    
+    margin-top: -100px;
+    font-size: 25px;
+    color: rgb(238, 236, 236);
+}
 
 
 
