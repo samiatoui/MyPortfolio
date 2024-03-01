@@ -2,89 +2,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 :root {
-    --font-two: #05cc9d;
-    --font-one: #0D1317;
+    --font-two: rgba(33, 125, 187, 0.8);
+    --font-one: black;
     --font-pop: 'Poppins', sans-serif;
     --font-code: 'Fira Code', monospace !important;
 }
 
 body {
-    background-color: #0a192f;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: white;
-}
-
-.App {
-    max-width: 960px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-h1 {
-    color: var(--font-two);
+    color: black;
+    padding: 0;
+    margin: 0;
 }
 
 .skills-main {
-    color: var(--font-two);
-    margin-bottom: 100px;
+    color: black;
+    background-color: rgb(230, 230, 230);
+    padding: 50px 0;
+    margin: 0 auto;
 }
 
 .skill {
-    border-radius: 5px;
-    background-color: var(--font-two);
+    border-radius: 3px;
+    background-color: white;
     color: var(--font-one);
-    margin: 5px;
     padding: 5px 10px;
     font-family: var(--font-code);
+    max-width: 70%;
+    margin: 5px;
 }
 
-.skills-title{
+.skills-title {
     text-align: center;
 }
+
 .skill-divide {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skill-div {
-    color: white;
     text-align: center;
 }
 
 .Navbar {
     display: flex;
     align-items: center;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin-bottom: 50px;
+    color: white;
+    background-color: var(--font-two);
+    padding: 10px 20px;
 }
 
 .Navbar a {
     text-decoration: none;
-    color: var(--font-one);
+    color: var(--font-two);
     font-size: 18px;
-    background-color: var(--font-two);
+    background-color: white;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .nav-btn {
     float: right;
 }
 
-.nav-title{
-    float:left;
+.nav-title {
+    float: left;
 }
 
 .Navbar a:hover {
-    background-color: white;
+    background-color: var(--font-two);
+    color: var(--font-one);
 
 }
 
@@ -93,21 +85,21 @@ h1 {
 
 }
 
-.title {
-    color: var(--font-two);
-}
+
 
 .repo-container {
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin: 0 auto;
+    max-width: 60%;
+    padding-bottom: 50px;
 }
 
 .repo-main {
     text-align: center;
-    color: var(--font-two);
-
+    background-color: rgb(230, 230, 230);
+    margin: 0 auto;
+    justify-content: center;
+    display:
 }
 
 .repo-tag {
@@ -131,19 +123,20 @@ h1 {
     font-size: 14px;
 }
 
+.repo-main h1 {
+    padding-top: 50px;
+}
+
 .repo-item {
     font-family: var(--font-code);
-    background-color: var(--font-two);
-    width: 280px;
-    height: 275px;
-    overflow-wrap: break-word;
+    background-color: white;
     text-align: left;
-    margin: 5px;
-    padding: 5px 15px;
-    border-radius: 5px;
+    padding: 25px 35px;
+    border-radius: 3px;
     color: black;
     font-size: 14px;
-
+    margin: 5px auto;
+    max-width: 500px;
 }
 
 .repo-button {
@@ -175,109 +168,22 @@ h1 {
 }
 
 .about {
+    background-color: var(--font-two);
     color: white;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
-
-}
-
-
-@media only screen and (min-width: 750px) {
-
-    .about {
-        display: flex;
-        margin: 0 auto;
-        max-width: 950px;
-    }
-
-    .bio-text {
-        padding-right: 25px;
-    }
-
-    .imgsami {
-        max-width: 300px;
-        border-radius: 10px;
-    }
-
-    .skills-container {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
+    padding: 50px 20px;
+    min-height: 500px;
 }
 
 
 
-@media only screen and (max-width: 700px) {
 
-    .App {
 
-    }
-
-    .about {
-        margin-top: 50px;
-        display:block;
-        max-width: 425px;
-        padding-left: 25px;
-    }
-
-    .skills-container {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-wrap: wrap;
-    }
-    
-    .skills-main{
-    }
-
-    .bio-text {
-        padding-right: 25px;
-    }
-
-    .imgsami {
-        display: flex;
-        justify-content: center;
-        max-width: 300px;
-        border-radius: 10px;
-    }
-
-    .skill {
-        width: 150px;
-    }
-
-    .Navbar{
-        display: flex;
-        justify-content: space-between;
-        padding: 0 25px;
-    }
-
-    .nav-btn{
-        float:right;
-        margin: 0;
-        padding: 0;
-    }
-    .exp-main{
-        padding: 5px 50px;
-
-    }
-
-}
-
-.imgsami {
-    box-shadow: 10px 10px 5px var(--font-two);
-    -moz-box-shadow: 10px 10px 5px var(--font-two);
-    -webkit-box-shadow: 10px 10px 0px var(--font-two);
-    -khtml-box-shadow: 10px 10px 0px var(--font-two);
-}
 
 .text h2 {
     font-size: 18px;
     font-family: var(--font-code);
-    color: var(--font-two);
 }
 
 .text p {
@@ -289,7 +195,6 @@ h1 {
     margin-bottom: -40px;
     font-family: var(--font-code);
     font-size: 16px;
-    color: var(--font-two);
 }
 
 .text h1 {
@@ -306,16 +211,8 @@ h1 {
     padding-right: 10px;
 }
 
-.contact-item img {
-    width: 20px;
-    aspect-ratio: 1/1;
-    filter: invert(47%) sepia(95%) saturate(571%) hue-rotate(122deg) brightness(102%) contrast(103%);
 
-}
 
-.contact-item img:hover {
-    filter: invert(100%) sepia(1%) saturate(4726%) hue-rotate(312deg) brightness(114%) contrast(100%);
-}
 
 .footer {
     display: flex;
@@ -340,25 +237,41 @@ h1 {
 
 .exp-main {
     margin-bottom: 100px;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.work-title {
+    justify-content: center;
+    display: flex;
 }
 
 .exp-item h2 {
-    color: var(--font-two);
     margin-bottom: -15px;
+    font-size: 20px;
+}
+
+.exp-item h1 {
+    font-size: 22px;
 }
 
 .exp-item {
     margin-bottom: 50px;
+    background-color: rgb(230, 230, 230);
+    border: solid 1px rgb(206, 206, 206);
+    padding: 10px 20px;
+    max-width: 60%;
+    border-radius: 3px;
+
 }
 
-.title-job {
-    background-color: var(--font-two);
-    color: var(--font-one);
-    padding: 5px 10px;
-    font-size: 20px;
+.exp-container {
+    display: flex;
+    justify-content: space-between;
 }
+
 
 .exp-item ul {
-    filter: invert(47%) sepia(95%) saturate(571%) hue-rotate(122deg) brightness(102%) contrast(103%);
     list-style-image: url('./play-solid.svg');
 }

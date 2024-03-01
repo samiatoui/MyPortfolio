@@ -53,7 +53,7 @@ export default function Workexp() {
 
   return (
     <div className="exp-main">
-      <h1>Where I've Worked</h1>
+      <h1 className="work-title">Where I've Worked</h1>
       <div className="work-exp">
         {workExperiences.map((experience, index) => (
           <Experience
