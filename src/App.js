@@ -1,4 +1,3 @@
-import Topbar from "./components/Topbar";
 import "./App.css";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -12,7 +11,6 @@ function App() {
     <div className="App">
         
       <div className="sections">
-        <Topbar />
           <About />
           <Skills />
           <Exp />
