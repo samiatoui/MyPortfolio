@@ -274,6 +274,23 @@ body {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+    .exp-main {
+        max-width: 100%;
+        margin: 0 auto; /* Center the element horizontally */
+    }
+    
+    .exp-container {
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+    
+    .work-exp {
+        margin: 0 auto; /* Center the element horizontally */
+    }
+    
+}
 
 .exp-item ul {
     list-style-image: url('./play-solid.svg');
