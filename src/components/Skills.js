@@ -2,7 +2,7 @@ import React from 'react';
 import SkillSection from './SkillSection'; // Import the SkillSection component
 
 export default function Skills() {
-  const programmingSkills = ['Java', 'JavaScript', 'HTML', 'CSS', 'VueJS', 'React','GraphQL', 'Docker', 'Wordpress', 'Shopify', 'GitHub', 'Azure Devops', 'Visual Studio', 'IntelliJ', 'MS Teams','ArangoDB', 'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'MS Access','Adobe Photoshop', 'Canva'];
+  const programmingSkills = ['Google Cloud Platform','Java', 'JavaScript', 'HTML', 'CSS', 'VueJS', 'React','GraphQL', 'Docker', 'Wordpress', 'Shopify', 'GitHub', 'Azure Devops', 'Visual Studio', 'IntelliJ', 'MS Teams','ArangoDB', 'MySQL', 'PostgreSQL', 'MongoDB', 'Firebase', 'MS Access','Adobe Photoshop', 'Canva'];
 
   return (
     <div className="skills-main">
