@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dd014c10.css",
-    "main.js": "/static/js/main.6aea1fec.js",
+    "main.js": "/static/js/main.a5ddb122.js",
     "static/media/SAMIATOUI-RESUME.pdf": "/static/media/SAMIATOUI-RESUME.bd5fdf6c2dd1254d0753.pdf",
     "static/media/github.svg": "/static/media/github.f4f316804f6c468799b01fab35bd3220.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.386d46fc1dc9ea908ed8bb6235009335.svg",
@@ -10,10 +10,10 @@
     "index.html": "/index.html",
     "static/media/play-solid.svg": "/static/media/play-solid.2e99cfbe767d555f5308.svg",
     "main.dd014c10.css.map": "/static/css/main.dd014c10.css.map",
-    "main.6aea1fec.js.map": "/static/js/main.6aea1fec.js.map"
+    "main.a5ddb122.js.map": "/static/js/main.a5ddb122.js.map"
   },
   "entrypoints": [
     "static/css/main.dd014c10.css",
-    "static/js/main.6aea1fec.js"
+    "static/js/main.a5ddb122.js"
   ]
 }
