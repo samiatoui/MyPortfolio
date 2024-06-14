@@ -19,7 +19,7 @@ export default function Workexp() {
       ]
     },
     {
-      jobTitle: 'Student Media Coordinator',
+      jobTitle: 'Media Operations Manager',
       company: 'Association Étudiante de l’Université de Saint-Boniface',
       date: 'August 2018 - Current',
       responsibilities: [
