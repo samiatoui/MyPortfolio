@@ -7,7 +7,7 @@ export default function Skills() {
   return (
     <div className="skills-main">
       <div className="skills-title">
-        <h1>My Toolbox</h1>
+        <h1>My Technical Toolbox</h1>
       </div>
 
       <div className="skills-container">
