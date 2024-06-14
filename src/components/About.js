@@ -6,7 +6,7 @@ export default function About() {
         <div className="about">
             <div className='about-text'>
                 <h1>Hi 👋, I'm Sami Atoui</h1>
-                <p>A Software Developer</p>
+                <p>A Developer and Product Manager</p>
                 <div className="about-btn">
                     <MenuItems />
                 </div>
