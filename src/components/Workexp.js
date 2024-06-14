@@ -4,7 +4,7 @@ import Experience from './Experience'; // Import the Experience component
 export default function Workexp() {
   const workExperiences = [
     {
-      jobTitle: 'Lead Developer/Product Owner',
+      jobTitle: 'Lead Developer/Product Manager',
       company: 'Public Health Agency of Canada, Data Enablement',
       date: 'September 2023 - Current',
       responsibilities: [
