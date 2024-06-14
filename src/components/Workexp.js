@@ -19,6 +19,18 @@ export default function Workexp() {
       ]
     },
     {
+      jobTitle: 'Student Media Coordinator',
+      company: 'Association Étudiante de l’Université de Saint-Boniface',
+      date: 'August 2018 - Current',
+      responsibilities: [
+        'Directed day-to-day operations of Le Réveil and Le Réveil FM, ensuring the delivery of high-quality content to the student body and french community.',
+        'Conducted comprehensive hiring processes to recruit top talent, fostering innovation within our media platforms.',
+        'Implemented strategic sales strategies for advertisement slots, driving revenue generation and ensuring financial sustainability.',
+        'Managed social media accounts to enhance online presence and foster meaningful connections with our audience.',
+        'Designed and maintained the organizations website using WordPress, optimizing user experience and accessibility.'
+      ],
+    },
+    {
         jobTitle: 'Software Developer',
         company: 'Public Health Agency of Canada, Data Enablement',
         date: 'February 2022 - September 2023',
@@ -36,10 +48,13 @@ export default function Workexp() {
       company: 'Department of National Defence, Government of Canada',
       date: 'August 2021 - Current',
       responsibilities: [
-        'Wrote and maintained code for a web application used by 15,000 employees.',
-        'Worked with a variety of technologies and languages such as JavaScript, VueJS, Firebase, ASP.Net Core, Django, Postgres, and Nativescript.',
-        'Wrote and maintained essential documentation used by the development team.',
-        'Communicated with multi-disciplinary teams of engineers and designers on a daily basis.',
+        'Proactively identified opportunities for process improvement and digital transformation, proposing and implementing innovative solutions to address organizational needs.',
+        'Participated in Agile ceremonies including sprint planning, backlog grooming, and daily stand-ups, contributing to the rapid iteration and delivery of software solutions.',
+        'Contributed to front-end development efforts, leveraging Vue.js and React to create intuitive user interfaces with a focus on usability and responsiveness.',
+        'Implemented back-end functionality using Django and ASP.NET, developing RESTful APIs and integrating with databases to support critical workflows and data management processes.',
+        'Engaged in product management activities, collaborating with stakeholders to prioritize features, plan roadmaps, and conduct user acceptance testing to ensure solutions met user requirements.',
+        'Utilized version control tools such as GitHub to manage code repositories, ensuring code quality, versioning, and collaboration across development efforts.',
+        'Worked closely with cross-functional teams including designers, testers, and business analysts to understand requirements, refine solutions, and deliver high-quality software products.'
       ],
     },
     {
@@ -53,17 +68,7 @@ export default function Workexp() {
         'In direct communication with clients on a daily basis.',
       ],
     },
-    {
-      jobTitle: 'Student Media Coordinator',
-      company: 'Association Étudiante de l’Université de Saint-Boniface',
-      date: 'August 2018 - Current',
-      responsibilities: [
-        'Managed and hired a team of 20 employees.',
-        'Overlooked the daily operations of the student media.',
-        'Sold advertisement spaces on the newspaper and radio.',
-        'Managed the media websites and social media accounts.',
-      ],
-    },
+   
   ];
 
   return (
