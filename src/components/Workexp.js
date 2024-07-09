@@ -4,18 +4,16 @@ import Experience from './Experience'; // Import the Experience component
 export default function Workexp() {
   const workExperiences = [
     {
-      jobTitle: 'Lead Developer/Product Manager',
+      jobTitle: 'Lead Developer',
       company: 'Public Health Agency of Canada, Data Enablement',
       date: 'September 2023 - Current',
       responsibilities: [
-        'Spearhead development and deployment of innovative software solutions for government agencies.',
-        'Collaborate with stakeholders to define product vision, goals, and feature prioritization.',
-        'Orchestrate design, development, and delivery of tailored solutions, ensuring alignment with agency objectives.',
-        'Conduct user research and usability testing to optimize product usability and efficiency.',
-        'Facilitate cross-functional collaboration and champion Agile methodologies for continuous improvement.',
-        'Monitor key metrics to drive data-driven decision-making and prioritize enhancements.',
-        'Lead product launch activities and cultivate strategic partnerships with government departments.',
-        'Ensure compliance with government regulations and integrate user feedback into development processes.',
+        'Spearheaded the development and deployment of innovative web applications for government agencies.',
+        'Collaborated with stakeholders to define product vision, goals, and feature prioritization.',
+        'Orchestrated the design, development, and delivery of tailored solutions, ensuring alignment with agency objectives.',
+        'Facilitated cross-functional collaboration and championed Agile methodologies for continuous improvement.',
+        'Ensured compliance with government regulations and integrated user feedback into development processes.',
+        ' Developed applications using key technologies such as ReactJS, VueJS, GraphQL, ArangoDB and SQL.',
       ]
     },
     {
