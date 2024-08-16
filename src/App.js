@@ -13,7 +13,6 @@ function App() {
       <div className="sections">
           <About />
           <Skills />
-          <Exp />
           <RepoList />
         <Footer />
       </div>
