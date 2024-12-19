@@ -2,31 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 :root {
-    --font-two: rgba(33, 125, 187, 0.8);
+    --font-two: rgb(173, 0, 107);
     --font-one: black;
     --font-pop: 'Poppins', sans-serif;
     --font-code: 'Fira Code', monospace !important;
 }
 
 body {
-    background-color: white;
+    background-color: rgb(24, 36, 42);
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: white;
     padding: 0;
     margin: 0;
 }
 
+h1{
+    padding-bottom: 25px;
+    font-size: 35px;
+}
+
+h2{
+    font-size: 30px;
+}
 .skills-main {
-    color: black;
-    background-color: rgb(230, 230, 230);
     padding: 50px 0;
     margin: 0 auto;
 }
 
 .skill {
-    border-radius: 3px;
-    background-color: white;
-    color: var(--font-one);
+    border-radius: 2px;
+    background-color: rgb(19, 20, 31);
+    color: var(--font-two);
     padding: 5px 10px;
     font-family: var(--font-code);
     margin: 5px;
@@ -51,117 +57,94 @@ body {
 }
 
 
-.about-btn a {
+button{
+    background-color: rgb(24, 36, 42);
     text-decoration: none;
     color: white;
     font-size: 18px;
-    background-color: var(--font-two);
     padding: 10px 20px;
-    border-radius: 3px;
-    border: solid 2px white;
+    border: 2px solid rgb(173, 0, 107);
+    border-radius: 5px;
+    box-shadow: 5px 0px 6px rgba(255, 0, 157, 0.3); /* Add drop shadow */
 }
 
 
 
-
-
-.about-btn a:hover {
-    background-color: white;
+button:hover {
     color: var(--font-two);
 
 }
 
-.about-btn a:visited {
+button:visited {
     color: var(--font-one);
 
 }
 
-
-
-.repo-container {
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 60%;
-    padding-bottom: 50px;
-    max-height: 750px;
-    overflow-y: scroll;
-}
-
 .repo-main {
     text-align: center;
-    background-color: white;
-    margin: 0 auto;
-    justify-content: center;
-    padding-bottom: 100px;
 }
 
-.repo-tag {
-    display: flex;
-    align-items: center;
-    overflow-wrap: break-word;
-    max-width: 10px;
-
+.repo-container {
+    margin: 0 auto;  /* Centers the container horizontally */
+    padding-bottom: 50px;
+    max-width: 1000px;  /* Adjust to your desired width (100% max width or set a fixed value) */
+    width: 90%;  /* Adjusts the container to be 90% of the page width or any desired value */
+    text-align: left;  /* Aligns the text to the left inside the container */
 }
 
-.topic {
-    background-color: rgb(0, 238, 255);
-    padding: 0 5px;
-    margin: 0 5px;
-    border-radius: 3px;
-}
-
-.repo-main h4 {
-    font-style: italic;
-    color: grey;
-    font-size: 14px;
-}
-
-.repo-main h1 {
-    padding-top: 50px;
+.repo-img img {
+    height: auto; /* Maintain aspect ratio */
+    max-width: 600px; /* Allow resizing for smaller screens */
+    border: 2px solid rgb(173, 0, 107);
+    border-radius: 10px;
+    box-shadow: 5px 0px 6px rgba(255, 0, 157, 0.3); /* Drop shadow */
 }
 
 .repo-item {
-    font-family: var(--font-code);
-    background-color: rgb(230, 230, 230);;
-    text-align: left;
-    padding: 25px 35px;
-    border-radius: 3px;
-    color: black;
-    font-size: 14px;
-    margin: 5px auto;
-    max-width: 500px;
-}
-
-.repo-button {
-    padding: 0px 5px 0px 0px;
-}
-
-.repo-button a {
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.repo-button a:visited {
-    text-decoration: none;
-}
-
-.repo-button a:hover {
-    filter: invert(100%) sepia(1%) saturate(4726%) hue-rotate(312deg) brightness(114%) contrast(100%);
-
-}
-
-.repo-btncont {
     display: flex;
+    gap: 2rem;
+    padding-bottom: 50px;
+    width: 100%; /* Make sure the container takes full width */
+    max-width: 1000px; /* Limit the width for large screens */
+    flex-wrap: nowrap; /* Prevent wrapping, keep them side by side */
 }
 
-.repo-button img {
-    aspect-ratio: 1/1;
-    width: 20px;
-    height: auto;
+
+
+/* Add media queries for better responsiveness on smaller screens */
+@media (max-width: 768px) {
+    .repo-item {
+        flex-direction: column; /* Stack the image and text vertically */
+        align-items: center; /* Center align the items */
+    }
+
+    .repo-img img {
+        max-width: 100%; /* Ensure the image takes up the full width on smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 300px; /* Ensure the image height stays consistent */
+    }
+
+    .repo-item .repo-img,
+    .repo-item .repo-text {
+        flex: 1 1 100%; /* Allow the items to take up full width on small screens */
+        
+    }
 }
+
+@media (max-width: 480px) {
+    .repo-container {
+        padding: 20px; /* Add some padding for small screens */
+    }
+
+    .repo-item {
+        padding-bottom: 50px; /* Adjust padding on small screens */
+        
+    }
+}
+
+
 
 .about {
-    background-color: var(--font-two);
     color: white;
     text-align: center;
 
@@ -238,26 +221,6 @@ body {
     font-size: 14px;
 }
 
-.exp-main {
-    margin-bottom: 100px;
-    max-width: 60%;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-
-.work-title {
-    justify-content: center;
-    display: flex;
-}
-
-.exp-item h2 {
-    margin-bottom: -15px;
-    font-size: 20px;
-}
-
-.exp-item h1 {
-    font-size: 22px;
-}
 
 .exp-item {
     margin-bottom: 50px;
@@ -275,23 +238,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .exp-main {
-        max-width: 100%;
-        margin: 0 auto; /* Center the element horizontally */
-    }
-    
-    .exp-container {
-        display: flex;
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items horizontally */
-    }
-    
-    .work-exp {
-        margin: 0 auto; /* Center the element horizontally */
-    }
+   
     
 }
 
-.exp-item ul {
-    list-style-image: url('./play-solid.svg');
-}

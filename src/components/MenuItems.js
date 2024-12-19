@@ -8,7 +8,7 @@ export default function Menuitems() {
 
     return (
         <a onClick={onResumeClick}>
-            MY RESUME
+            <button>MY RESUME</button>
         </a>
     )
 
