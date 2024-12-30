@@ -9,21 +9,23 @@
 }
 
 body {
-    background-color: rgb(24, 36, 42);
+    background: linear-gradient(45deg, rgb(110, 1, 68) 5%, rgb(19, 20, 31) 60%);
+    background-color: rgb(19, 20, 31);
     font-family: 'Poppins', sans-serif;
     color: white;
     padding: 0;
     margin: 0;
 }
 
-h1{
+h1 {
     padding-bottom: 25px;
     font-size: 35px;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
+
 .skills-main {
     padding: 50px 0;
     margin: 0 auto;
@@ -31,7 +33,7 @@ h2{
 
 .skill {
     border-radius: 2px;
-    background-color: rgb(19, 20, 31);
+    background-color: rgb(29, 30, 41);
     color: var(--font-two);
     padding: 5px 10px;
     font-family: var(--font-code);
@@ -51,13 +53,14 @@ h2{
 .skill-div {
     text-align: center;
 }
-.skills-container{
+
+.skills-container {
     margin: 0 auto;
     max-width: 60%;
 }
 
 
-button{
+button {
     background-color: rgb(24, 36, 42);
     text-decoration: none;
     color: white;
@@ -65,7 +68,8 @@ button{
     padding: 10px 20px;
     border: 2px solid rgb(173, 0, 107);
     border-radius: 5px;
-    box-shadow: 5px 0px 6px rgba(255, 0, 157, 0.3); /* Add drop shadow */
+    box-shadow: 5px 0px 6px rgba(255, 0, 157, 0.3);
+    /* Add drop shadow */
 }
 
 
@@ -85,28 +89,43 @@ button:visited {
 }
 
 .repo-container {
-    margin: 0 auto;  /* Centers the container horizontally */
+    margin: 0 auto;
+    /* Centers the container horizontally */
     padding-bottom: 50px;
-    max-width: 1000px;  /* Adjust to your desired width (100% max width or set a fixed value) */
-    width: 90%;  /* Adjusts the container to be 90% of the page width or any desired value */
-    text-align: left;  /* Aligns the text to the left inside the container */
+    max-width: 1000px;
+    /* Adjust to your desired width (100% max width or set a fixed value) */
+    width: 90%;
+    /* Adjusts the container to be 90% of the page width or any desired value */
+    text-align: left;
+    /* Aligns the text to the left inside the container */
 }
 
 .repo-img img {
-    height: auto; /* Maintain aspect ratio */
-    max-width: 600px; /* Allow resizing for smaller screens */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-width: 600px;
+    /* Allow resizing for smaller screens */
     border: 2px solid rgb(173, 0, 107);
     border-radius: 10px;
-    box-shadow: 5px 0px 6px rgba(255, 0, 157, 0.3); /* Drop shadow */
+    box-shadow: 5px 0px 6px rgba(255, 0, 157, 0.3);
+    /* Drop shadow */
 }
 
 .repo-item {
     display: flex;
     gap: 2rem;
     padding-bottom: 50px;
-    width: 100%; /* Make sure the container takes full width */
-    max-width: 1000px; /* Limit the width for large screens */
-    flex-wrap: nowrap; /* Prevent wrapping, keep them side by side */
+    width: 100%;
+    /* Make sure the container takes full width */
+    max-width: 1000px;
+    /* Limit the width for large screens */
+    flex-wrap: nowrap;
+    /* Prevent wrapping, keep them side by side */
+    align-items: center;
+}
+
+.repo-info {
+    align-items: center;
 }
 
 
@@ -114,31 +133,62 @@ button:visited {
 /* Add media queries for better responsiveness on smaller screens */
 @media (max-width: 768px) {
     .repo-item {
-        flex-direction: column; /* Stack the image and text vertically */
-        align-items: center; /* Center align the items */
+        flex-direction: column;
+        /* Stack the image and text vertically */
+        align-items: center;
+        /* Center align the items */
     }
 
     .repo-img img {
-        max-width: 100%; /* Ensure the image takes up the full width on smaller screens */
-        height: auto; /* Maintain aspect ratio */
-        max-height: 300px; /* Ensure the image height stays consistent */
+        max-width: 100%;
+        /* Ensure the image takes up the full width on smaller screens */
+        height: auto;
+        /* Maintain aspect ratio */
+        max-height: 300px;
+        /* Ensure the image height stays consistent */
     }
 
     .repo-item .repo-img,
     .repo-item .repo-text {
-        flex: 1 1 100%; /* Allow the items to take up full width on small screens */
-        
+        flex: 1 1 100%;
+        /* Allow the items to take up full width on small screens */
+
+    }
+
+    .about {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+
     }
 }
 
 @media (max-width: 480px) {
     .repo-container {
-        padding: 20px; /* Add some padding for small screens */
+        padding: 20px;
+        /* Add some padding for small screens */
     }
 
     .repo-item {
-        padding-bottom: 50px; /* Adjust padding on small screens */
-        
+        padding-bottom: 50px;
+        /* Adjust padding on small screens */
+
+    }
+
+    .about {
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: block !important;
+        margin: 0 auto;
+    }
+
+    .about-picture {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -146,24 +196,34 @@ button:visited {
 
 .about {
     color: white;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
 
 }
 
-.about h1{
-    font-size: 70px;
+
+
+.about p {
     padding: 0;
-}
-
-.about p{
-    padding: 0;    
-    margin-top: -50px;
+    margin: 0;
     font-size: 25px;
     color: rgb(238, 236, 236);
 }
 
-.about-text{
-    padding: 100px 50px;
+.about-text {
+    padding: 20px 50px;
+    max-width: 500px;
+}
+
+.about img {
+    max-width: 300px;
+    border: 2px solid rgb(173, 0, 107);
+    box-shadow: 15px 10px 0px rgba(255, 0, 157, 0.7);
+    /* Drop shadow */
+
 }
 
 .text h2 {
@@ -176,12 +236,6 @@ button:visited {
 }
 
 
-.hi {
-    margin-bottom: -40px;
-    font-family: var(--font-code);
-    font-size: 16px;
-}
-
 .text h1 {
     color: var(--font-yellow);
     font-size: 50px;
@@ -191,15 +245,17 @@ button:visited {
 .contact {
     display: flex;
     width: 100px;
+    color: white;
 }
 
 .contact-item {
     padding-right: 10px;
     width: 25px;
+    color: white;
 }
 
-.contact-item a{
-    color: black;
+.contact-item a {
+    color: white;
 }
 
 
@@ -211,7 +267,7 @@ button:visited {
     text-align: center;
     justify-content: space-between;
     font-family: var(--font-code);
-    color: grey;
+    color: white;
     max-width: 60%;
     margin: 0 auto;
     padding-top: 50px;
@@ -236,9 +292,3 @@ button:visited {
     display: flex;
     justify-content: space-between;
 }
-
-@media screen and (max-width: 768px) {
-   
-    
-}
-
