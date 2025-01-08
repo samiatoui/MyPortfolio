@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba422009.css",
-    "main.js": "/static/js/main.c5592dba.js",
+    "main.css": "/static/css/main.0df89bdc.css",
+    "main.js": "/static/js/main.d5bee9d8.js",
     "static/media/SAMiATOUi-RESUME.pdf": "/static/media/SAMiATOUi-RESUME.f4f1de6cefab097761b5.pdf",
     "static/media/github.svg": "/static/media/github.f4f316804f6c468799b01fab35bd3220.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.386d46fc1dc9ea908ed8bb6235009335.svg",
     "static/media/envelope-solid.svg": "/static/media/envelope-solid.e097336f4e33827be942e2c35296dbca.svg",
     "index.html": "/index.html",
-    "main.ba422009.css.map": "/static/css/main.ba422009.css.map",
-    "main.c5592dba.js.map": "/static/js/main.c5592dba.js.map"
+    "main.0df89bdc.css.map": "/static/css/main.0df89bdc.css.map",
+    "main.d5bee9d8.js.map": "/static/js/main.d5bee9d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba422009.css",
-    "static/js/main.c5592dba.js"
+    "static/css/main.0df89bdc.css",
+    "static/js/main.d5bee9d8.js"
   ]
 }
