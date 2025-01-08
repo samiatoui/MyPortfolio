@@ -26,6 +26,20 @@ h2 {
     font-size: 30px;
 }
 
+.services-sec {
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    gap: 2rem;
+}
+
+.service-item {
+    text-align: left;
+    max-width: 50%;
+}
+
 .skills-main {
     padding: 50px 0;
     margin: 0 auto;
@@ -163,17 +177,20 @@ button:visited {
 
 
     }
+
+    .services-sec {
+        margin: 0 auto !important;
+        padding: 15px 30px;
+    }
 }
 
 @media (max-width: 480px) {
     .repo-container {
         padding: 20px;
-        /* Add some padding for small screens */
     }
 
     .repo-item {
         padding-bottom: 50px;
-        /* Adjust padding on small screens */
 
     }
 
@@ -182,13 +199,22 @@ button:visited {
         text-align: center;
         justify-content: center;
         align-items: center;
-        display: block !important;
+        display: block;
         margin: 0 auto;
     }
 
     .about-picture {
         display: flex;
         justify-content: center;
+    }
+
+    .services-sec {
+        display: block;
+        margin: 0 auto;
+
+    }
+    .service-item{
+        max-width: 100%;
     }
 }
 
@@ -201,6 +227,7 @@ button:visited {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    padding-bottom: 50px;
 
 }
 
