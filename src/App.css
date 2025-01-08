@@ -174,8 +174,6 @@ button:visited {
         text-align: center;
         justify-content: center;
         align-items: center;
-
-
     }
 
     .services-sec {
@@ -199,8 +197,9 @@ button:visited {
         text-align: center;
         justify-content: center;
         align-items: center;
-        display: block;
         margin: 0 auto;
+        display: block !important;
+
     }
 
     .about-picture {
