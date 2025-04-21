@@ -1,14 +1,8 @@
-import Pdf from "./SAMiATOUi-RESUME.pdf";
-
 export default function Menuitems() {
 
-    const onResumeClick = () =>{
-        window.open(Pdf);
-    }
-
     return (
-        <a onClick={onResumeClick}>
-            <button>MY RESUME</button>
+        <a href="mailto:atoui79@gmail.com" target="_blank">
+            <button>Contact Me</button>
         </a>
     )
 

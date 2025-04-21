@@ -277,7 +277,6 @@ button:visited {
 .contact-item {
     padding-right: 10px;
     width: 25px;
-    color: white;
 }
 
 .contact-item a {
@@ -287,16 +286,21 @@ button:visited {
 
 
 .footer {
-    display: flex;
+    display: block;
     height: auto;
     min-height: 70px;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
     font-family: var(--font-code);
     color: white;
     max-width: 60%;
     margin: 0 auto;
     padding-top: 50px;
+}
+.links{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .title-footer {
